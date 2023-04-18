@@ -1,0 +1,19 @@
+1. Create ToDoList App using React JS
+	a. Use class component 
+	b. Involve Parent-Child Component 
+	
+	Hint :  Refer the image to understand more about the requirement.
+	
+	
+2.  Create a react class component to process product details 
+		a. Read Product Name, Unit Price and Quantity from user
+		b. Calculate total amount 
+		c.  Apply 10% discount if quantity is more than 10 units
+		d. Display the results along with product name 
+
+3.   Study the following items from internet: 
+		a.  Single Responsibility Principles
+		b.  Significance of keys concept in React 
+		c.  Is there any other way to sharing data from parent to child except props? 
+		
+	
