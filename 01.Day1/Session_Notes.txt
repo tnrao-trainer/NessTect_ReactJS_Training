@@ -1,1 +1,104 @@
 
+
+
+Processing State data 
+~~~~~~~~~~~~~~~~~~~~
+
+
+ var resultArray = this.state.empsArray.map( item =>  
+      <tr>
+				<td>{item.empno}</td>
+				<td>{item.ename}</td>
+				<td>{item.deptno}</td>
+      </tr>);
+	  
+	  
+ var resultArray = this.state.empsArray.map( (item, index) =>  
+      <tr  key={index}>
+				<td>{item.empno}</td>
+				<td>{item.ename}</td>
+				<td>{item.deptno}</td>
+      </tr>);
+	  
+	  
+	    
+JavaScript Libraries:
+
+	---   Array Methods
+				Advanced  :   map,  find, findIndex, filter 		
+	---   String Methods
+	---   DateTime / Numeric 
+	
+	 this.state.empsArray.push(obj);
+	  
+	  
+	  
+	  
+	  
+	   
+	   
+	   
+	   
+	   
+	   
+	  DeptList	   
+	  DeptDetails
+	  
+	    	  
+Single-responsibility principle (SRP)
+	--> The single-responsibility principle (SRP) is a computer programming principle that states that "A module should be responsible to one, and only one, actor.
+	
+	
+	TABLE 
+	TR
+	TD
+	TH
+	THEAD
+	TBODY
+	TFOOD
+	
+	
+	 var result =  this.state.depts.map ( item =>        
+						<DeptDetails  
+								deptObj={item} 
+								onDeptRemoved={this.deptRemove_parent}     />
+                    );
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------
+
+
+1.  Class Components (stateful)
+2.  Functional Components without hooks (stateless)
+		
+		function   WelcomeCard(props)
+		{
+				return <p> Welcome to  {props.uname} </p>
+		}
+
+3.  Functional Components with hooks (stateful)
+
+		-->  Array destructuring in javascript
+
+
+
+
+Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class.
+
+
+
+
+
+
+
+
+
+
+
