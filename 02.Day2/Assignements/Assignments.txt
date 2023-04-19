@@ -1,0 +1,12 @@
+1.   Perform Add/Remove operations on Customers data. (Refer the session example : Eg3_Customers_useEffect.js)
+
+
+2.  Apply different background color for alternate items : (Refer:  Eg4.Users_Styles.js)
+
+		a. All even cards :  Light Blue
+		b. All odd cards :   Light Green 
+
+3. Study the following items :
+		a.  Why do we use useContext() hook?
+		b.  What is JSON Server and Why do we use JSON Server?
+		c.   What XmlHttpRequest Object in JavaScrpt? Why do we use it?
