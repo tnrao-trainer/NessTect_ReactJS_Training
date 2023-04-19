@@ -1,0 +1,58 @@
+Functional Components
+~~~~~~~~~~~~~~~~~~~~
+
+
+--> Name of the component should be starts with capital letter
+--> Returns the ui logic  (similar content in render method of class component).
+
+function App() { 
+  return (
+    <div> </div>
+	<p> </p>
+  );
+}
+
+export default App;
+
+
+
+	<div> 
+        <h1>Welcome to functional components</h1>
+        <p>This is test paragraph. This is test paragraph.This is test paragraph.This is test paragraph.This is test paragraph.This is test paragraph.This is test paragraph. </p>
+    </div>   
+	
+
+ <React.Fragment> 
+        <h1>Welcome to functional components</h1>
+        <p>This is test paragraph. This is test paragraph.This is test paragraph.This is test paragraph.This is test paragraph.This is test paragraph.This is test paragraph. </p>
+   </React.Fragment>   
+	
+	
+	 <> 
+        <h1>Welcome to functional components</h1>
+        <p>This is test paragraph. This is test paragraph.This is test paragraph.This is test paragraph.This is test paragraph.This is test paragraph.This is test paragraph. </p>
+   </>   
+	
+	
+-------------------------------------------------------------------------------
+Side Effects of useState
+~~~~~~~~~~~~~~~~~~~~
+	
+--> Updates in state variables --->     re-render the UI 
+--> Functional component --- executed every time 
+--> Code snippets that you want to execute component loading can be handled using useEffect() hook 
+
+
+---------------------------------------------------------------
+
+
+
+
+1.   Inline
+2.   Component Level 
+3.   Project/Application Level 
+4.   3rd party libs. 
+
+	
+
+
