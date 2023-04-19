@@ -1,0 +1,39 @@
+useEffect() hook
+~~~~~~~~~~~~~~
+
+-->  Argument for useEffect()  hook is a callback.
+
+	 useEffect( callback );
+	 
+	 useEffect( () =>  
+	 {	
+			// code
+	 });
+			
+
+
+Note: 
+
+	1. By default useEffect() executed on load of the component and also when every state variables are changed. 
+	
+	2. To execute useEffect only on page load, pass empty [] as second parameter.
+	
+			useEffect(callback,  []);
+			
+	3. To execute on page load  +  when specific state variable  		
+	
+		useEffect(callback,  [city]);
+
+
+
+
+Application Areas:
+
+	1. subscribe(),  unsubscribe()
+	2. setInterval,  clearInternal
+	3. to modify document object properties
+			---  document.title 
+			
+	4.  to prepare logging messages 
+---------------------------------------------------------------------------------------------------------
+	

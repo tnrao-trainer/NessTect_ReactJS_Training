@@ -1,0 +1,28 @@
+Configure JSON Server
+~~~~~~~~~~~~~~~~~~~
+1.  npm  install  -g   json-server 
+
+2.  Create a db_depts.json file in a directory
+
+	E:\db_depts.json
+
+	 {
+	  "depts": 
+	   [
+		{ "Deptno": 10, "Dname": "Accounts", "Loc": "Hyd"},
+		{ "Deptno": 20, "Dname": "Sales", "Loc": "Pune"},
+		{ "Deptno": 30, "Dname": "Marketing", "Loc": "Goa"}    
+	  ]
+	}
+	
+3.   Do this in command prompt
+	E:\>  json-server   --watch    db_depts.json 
+	E:\>  json-server  --id  deptno --watch  --port  3500    db_detps.json 
+
+4.  check this url to see the data in browser: 
+			http://localhost:3000/depts
+			http://localhost:3500/depts
+
+
+
+ 
