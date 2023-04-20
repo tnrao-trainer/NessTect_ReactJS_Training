@@ -1,1 +1,143 @@
 
+
+AJAX implementation in Client side Tech. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	1.  XmlHttpRequest		---		 JavaScript
+	2.  window.fetch			---		JavaScript
+	3.  $.ajax()						---		jQuery
+	4.  HttpClient class 	----	@angular/common/http  		----  Angular
+	5.  axios    ---  3rd package 	---   React 
+	
+------------------------------------------------------------------------------------------
+
+1.  Installation 
+		npm  i  axios   --save 
+
+
+2. Import  axios 
+		import  axios  from  'axios';
+
+
+
+
+let  promiseObj  = axios.get(url);	
+		promiseObj.then(callback);
+		
+		
+		axios.get(url).then(callback);
+	
+	-->  get()  ----  returns promise object 
+
+
+GET	
+POST
+PUT
+DELETE 
+
+
+{ 
+	"records" :  
+			 [ 
+				{"Name":"Alfreds Futterkiste","City":"Berlin","Country":"Germany"},
+				{"Name":"Ana Trujillo Emparedados y helados","City":"México D.F.","Country":"Mexico"}, 
+				{"Name":"Antonio Moreno Taquería","City":"México D.F.","Country":"Mexico"}, 
+			] 
+}
+
+
+
+
+
+
+---------------------------------------------------------------------------------
+CRUD Operations  (API Calls for all CRUD Opreations) using JSON Server
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1.  Create JSON File
+	
+		>		npm  i  -g  json-server
+		
+		
+		db_depts.json 
+		
+		{
+			"detps" :  [
+			{
+				"deptno" : 10,
+				"dname" : "Accounts",
+				"loc"  : "Hyd"
+			},
+			{
+				"deptno" : 10,
+				"dname" : "Accounts",
+				"loc"  : "Hyd"
+			}
+			{
+				"deptno" : 10,
+				"dname" : "Accounts",
+				"loc"  : "Hyd"
+			}
+			]			
+		}
+	
+2.  Start the JSON Server
+
+		json-server  --watch   --port  3500    db_depts.json   
+		json-server  --watch  --id  detpno  --port  3500    db_depts.json   
+
+3.  React Component
+
+		a.  Import axios 
+		b.  Implement ajax calls using axios methods
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DataServices.js
+~~~~~~~~~~~~~
+
+let dataServiceObj = {};
+
+dataServiceObj.getData = function()
+{
+	// code 
+};
+
+export default dataServiceObj;
+	
+	
+	
+	
+	
+Start the json server:
+	>  	json-server --watch --port 5000 --id empno  db_emps.json
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	 
