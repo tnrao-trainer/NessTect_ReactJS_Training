@@ -1,0 +1,14 @@
+1. Create a react component to display the user details by usnig below url:
+		https://reqres.in/api/users
+	
+2.   Create a react component to perform CRUD operations on employee data using JSON Server
+
+	required properties:   empno, ename, job, sal, deptno
+	
+3.  Study the following items:
+		a.   How to sent authentication token in axios request?
+		b.   How to get the data based on the condition while communicate with json server:
+				i.  get employees belongs to depnto 10 
+				ii. get employees data sorting based on salary 
+				
+			
