@@ -1,5 +1,7 @@
 1. Create a react component to display the user details by usnig below url:
 		https://reqres.in/api/users
+		
+		Hint :  Please refer the image to know more details
 	
 2.   Create a react component to perform CRUD operations on employee data using JSON Server
 
