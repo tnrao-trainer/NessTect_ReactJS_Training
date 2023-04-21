@@ -1,0 +1,12 @@
+1.  Recreate the yesterday's example (CRUD on Employee data as JSON Server back-end) using React Services concept. 
+
+2. Create a Vehicle Registration Form using React JS. And perform the following validations:
+		a.  Owner Name  :    Required 
+		b.  Contact Number  :   10 digit number  (Use Regular Expression)
+		c.   Vehicle Model :    Required  
+		d.   Registration Number  :    TS09EA1234  (Sampel format, use Regular Expression)
+		e.   Vehicle Color  :     Required 
+		
+3.  Study the following items:
+		a.   What is Redux? Why do we use it?
+		b.   Why do we use useContext() hook in React?
