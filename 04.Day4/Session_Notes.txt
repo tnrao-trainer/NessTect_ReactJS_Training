@@ -1,1 +1,14 @@
+Performing validations in React Forms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1.  state values 
+2.  error message for each state value 
+
+	a.  perform validations on state variables
+	b.  if any failures,  store validations error message in error object
+	c.   check any errors in error object to stop sending data to server 
+			if no  errors in error object to send the data to server 
+	
+	
+
 
