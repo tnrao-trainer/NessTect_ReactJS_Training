@@ -1,0 +1,19 @@
+{
+  "depts": [
+    {
+      "deptno": 10,
+      "dname": "Accounts",
+      "loc": "Hyd"
+    },
+    {
+      "deptno": "40",
+      "dname": "Finance",
+      "loc": "Hyd"
+    },
+    {
+      "deptno": "50",
+      "dname": "Operations",
+      "loc": "Mumbai"
+    }
+  ]
+}
