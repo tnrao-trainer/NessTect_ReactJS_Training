@@ -1,0 +1,33 @@
+
+Playwright Component Testing
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+>		npm init playwright@latest
+
+
+
+// run for all browsers
+npx playwright test  
+
+// run tests for specific browser 
+npx playwright test  --project=chromium
+
+// running in debug mode
+npx playwright test  --project=chromium   --debug
+
+// to display detailed report 
+ npx playwright show-report
+
+
+
+------------------------------------------------------------------------
+
+
+
+>		npm install --save-dev  jest
+>      npm install --save-dev react-test-renderer
+>      npm install --save-dev @testing-library/react
+
+
+
