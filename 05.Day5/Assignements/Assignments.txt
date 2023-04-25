@@ -1,0 +1,11 @@
+1.  Create React Application to maintain the application level state using Redux library. 
+
+	a.   implement shopping cart case study
+	b.   maintain CartArray as global state variable in store
+	c.    add items from component by dispatching an action :  add item
+	d.    remove items from component by dispatching an action :  remove item
+	
+	
+2.  Study the following items :
+			a.  What is Redux Toolkit?
+			b.  What are some of the major features of Redux DevTools?
