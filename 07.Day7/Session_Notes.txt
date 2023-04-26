@@ -1,0 +1,75 @@
+Routing in React JS
+~~~~~~~~~~~~~~~~~~~~
+
+Web Applications
+	-->	Page based application model 	:   *.html, *.jsp, *.aspx, *.php, .........
+			
+			<a  href="Login.html">Login</a>
+	
+	-->	Component based application model 	: React , Angular , Vue, ...
+	
+			Invalid:	
+					<a  href="Login.js">Login</a>
+					<a  href="<Login />">Login</a>
+					
+-------------------------------------------------------------------------------
+
+	index.js	--->		app.js		--->		refers all rest of the components 
+	
+Note: The above model does not suitable for real-time apps. 
+---------------------------------------------------------------------------------
+SPA  :  Single Page Applications 
+
+			Base :		Partial page loading 
+			Loading the requested page without reloading the website/webpage. 
+--------------------------------------------------------------------------------	
+How to implement navigations in React?
+How do we load the components dynamically? 	
+	
+
+
+Solution :  Routing 
+
+
+
+	
+Configuring the routes 
+
+
+<Link  href="url">Text</Link>	----		Component
+ 
+	url 		----			component
+	
+	home 	----		<Home />
+	about 	----		<About />
+	contact 	----		<Contact />
+	.....
+	
+	
+Configuring the routes 
+	
+		
+
+npm  i  --save  react-router-dom
+
+
+
+
+
+
+
+
+1. Request for Emps urls
+2. Authenticated :		Verify the token,  Redirect to Emps
+	UnAuthenticated :		Redirect to Login
+	
+3.  Login:
+			a. valid :  Create token and store in sessionStorage
+							  Redirect to Emps
+			b. Error Message 
+			
+localStorage
+sessionStorage 
+
+
+
