@@ -1,0 +1,7 @@
+1.  Create react application to implement the navigations using routing concept.  Try to create the same application that we discussed in the session from the scratch. 
+
+2.   Go through all the previous topics that we discussed in our training. Prepare for assessment. 
+
+
+
+
